@@ -1,0 +1,21 @@
+{
+    "name": "hhirsch/google_shopping",
+    "type": "magento-module",
+    "license": "CC0-1.0",
+    "description": "Integrates export for google shopping into your magento shop..",
+    "authors": [
+        {
+            "name":"Henry Hirsch"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "extra":{ 
+        "map":[ 
+	["app/code/local/Inchoo/Gsfeed", "app/code/local/Inchoo/Gsfeed"],
+	["app/design/adminhtml/default/default/template/inchoo", "app/design/adminhtml/default/default/template/inchoo"],
+	["app/etc/modules/Inchoo_GoogleShoppingFeed.xml", "app/etc/modules/Inchoo_GoogleShoppingFeed.xml"]
+        ]
+    }
+}
